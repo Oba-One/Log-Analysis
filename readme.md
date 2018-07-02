@@ -3,7 +3,7 @@ The third project in Udacity's full stack web development nanodegree program.
 
 
 ## Project Overview
-The project requires students to create and use SQL queries to fetch results from a database of a newspaper website.The objective of this project is to demonstrate one's SQL and Query skills. The project requires creating multiple query. The database contains three tables.
+The project requires students to create and use SQL queries to fetch results from a database of a newspaper website.The objective of this project is to demonstrate one's SQL and Query skills. The project requires creating multiple queries. The database contains three tables.
 
 * The **authors** table includes information about the authors of articles.
 * The **articles** table includes the articles themselves.
