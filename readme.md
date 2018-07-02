@@ -21,10 +21,10 @@ The project requires students to create and use SQL queries to fetch results fro
 
 1. If you don't already have the latest version of python download it from the link in requirements.
 2. If not already installed download Vagrant and VirtualBox.
-3. Download or Fork this Udacity folder with preconfigured vagrant settings.
-4. Clone this repository.
-5. Download this database.
-6. Navigate to the Udacity folder downloaded in your command line interface and inside that `cd` into the vagrant folder.
+3. Download or Clone this [Udacity repository](https://github.com/udacity/fullstack-nanodegree-vm) with preconfigured vagrant settings.
+4. Download this [database](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
+5. Place the downloaded dadtabase within the vagrant folder from the Udacity repository.
+6. Navigate to the Udacity folder in your CLI and inside that `cd` into the vagrant folder.
 7. Run the command `vagrant up` to download and install your virtual enviroment.
 8. Once Vagrant finishes installing use the command `vagrant ssh` to enter your virtual enviroment. If not working try `winpty vagrant ssh`
 9. The command line will now show `vagrant@vagrant`, `cd` into the `/vagrant` folder. You `ls` and `cd ..` to find the right directory.
