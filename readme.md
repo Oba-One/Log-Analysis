@@ -10,15 +10,15 @@ The project requires students to create and use SQL queries to fetch results fro
 * The **articles** table includes the articles themselves.
 * The **log** table includes one entry for each time a user has accessed the site.
 
-___
+
 
 ## Requirements for Project
-[Python](https://www.python.org/download/releases/3.0/) - The code uses ver 3.6.4
-[Vagrant](https://www.vagrantup.com/downloads.html) - A virtual environment builder and manager.
-[VirtualBox](https://www.virtualbox.org/wiki/Downloads) - An open source virtualiztion software.
-[Git](https://git-scm.com/downloads) - An open source version control system.
+* [Python](https://www.python.org/download/releases/3.0/) - The code uses ver 3.6.4
+* [Vagrant](https://www.vagrantup.com/downloads.html) - A virtual environment builder and manager.
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - An open source virtualiztion software.
+* [Git](https://git-scm.com/downloads) - An open source version control system.
 
-___
+
 
 ## How to access project?
 
