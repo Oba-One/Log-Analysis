@@ -1,9 +1,9 @@
-#Log Analysis Project
+# Log Analysis Project
 The third project in Udacity's full stack web development nanodegree program.
 
 ___
 
-##Project Overview
+## Project Overview
 The project requires students to create and use SQL queries to fetch results from a database of a newspaper website.The objective of this project is to demonstrate one's SQL and Query skills. The project requires creating multiple query. The database contains three tables.
 
 * The **authors** table includes information about the authors of articles.
@@ -12,7 +12,7 @@ The project requires students to create and use SQL queries to fetch results fro
 
 ___
 
-##Requirements for Project
+## Requirements for Project
 [Python](https://www.python.org/download/releases/3.0/) - The code uses ver 3.6.4
 [Vagrant](https://www.vagrantup.com/downloads.html) - A virtual environment builder and manager.
 [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - An open source virtualiztion software.
@@ -20,8 +20,7 @@ ___
 
 ___
 
-##How to access the project?
-Follow the steps below to access the code of this project:
+## How to access project?
 
 1. If you don't already have the latest version of python download it from the link in requirements.
 2. If not already installed download Vagrant and VirtualBox.
@@ -40,9 +39,9 @@ Follow the steps below to access the code of this project:
 
 ___
 
-#Queries
+# Queries
 
-##Top Three Articles
+## Top Three Articles
 ```
 def get_top_articles():
     """Returns top 3 read articles"""
@@ -59,7 +58,7 @@ def get_top_articles():
     """
 ```
 
-##Top Three Authors
+## Top Three Authors
 ```
 def get_top_article_authors():
     """Returns top 3 popular authors"""
