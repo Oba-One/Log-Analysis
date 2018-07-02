@@ -1,7 +1,6 @@
 # Log Analysis Project
 The third project in Udacity's full stack web development nanodegree program.
 
-___
 
 ## Project Overview
 The project requires students to create and use SQL queries to fetch results from a database of a newspaper website.The objective of this project is to demonstrate one's SQL and Query skills. The project requires creating multiple query. The database contains three tables.
@@ -11,13 +10,11 @@ The project requires students to create and use SQL queries to fetch results fro
 * The **log** table includes one entry for each time a user has accessed the site.
 
 
-
 ## Requirements for Project
 * [Python](https://www.python.org/download/releases/3.0/) - The code uses ver 3.6.4
 * [Vagrant](https://www.vagrantup.com/downloads.html) - A virtual environment builder and manager.
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - An open source virtualiztion software.
 * [Git](https://git-scm.com/downloads) - An open source version control system.
-
 
 
 ## How to access project?
@@ -37,11 +34,9 @@ The project requires students to create and use SQL queries to fetch results fro
 13. Now with the database installed, enter the command `python db_query.py` to run the query.
 14. If succesful the 3 results should be outputed in the terminal.
 
-___
+## Queries
 
-# Queries
-
-## Top Three Articles
+### Top Three Articles
 ```
 def get_top_articles():
     """Returns top 3 read articles"""
@@ -58,7 +53,7 @@ def get_top_articles():
     """
 ```
 
-## Top Three Authors
+### Top Three Authors
 ```
 def get_top_article_authors():
     """Returns top 3 popular authors"""
@@ -77,7 +72,7 @@ def get_top_article_authors():
     """
 ```
 
-## Days With More Than 1% Errors
+### Days With More Than 1% Errors
 ```
 def get_days_with_errors():
     """Returns days with more than 1% request errors"""
@@ -102,7 +97,9 @@ def get_days_with_errors():
         ORDER BY percent DESC;
     """
 ```
-# Expected Output
+
+
+## Expected Output
 ```
 Calculating Results...
 
