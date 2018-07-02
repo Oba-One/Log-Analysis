@@ -27,12 +27,12 @@ The project requires students to create and use SQL queries to fetch results fro
 6. Navigate to the Udacity folder downloaded in your command line interface and inside that `cd` into the vagrant folder.
 7. Run the command `vagrant up` to download and install your virtual enviroment.
 8. Once Vagrant finishes installing use the command `vagrant ssh` to enter your virtual enviroment. If not working try `winpty vagrant ssh`
-9. The command line will now show vagrant@vagrant, `cd` into the /vagrant folder. You `ls` and `cd ..` to find the right directory.
+9. The command line will now show `vagrant@vagrant`, `cd` into the `/vagrant` folder. You `ls` and `cd ..` to find the right directory.
 10. Move the files of this downloaded repository to the vagrant folder. You can also copy the contents of this repository here.
 11. To load the database type `psql -d news -f newsdata.sql`
 12. To run the database type `psql -d news`
-13. Now with the database installed, enter the command `python db_query.py` to run the query.
-14. If succesful the 3 results should be outputed in the terminal.
+13. Now with the database installed, enter the command `python db_query.py` to run the queries.
+14. If succesful the three query results should be outputed in the terminal.
 
 ## Queries
 
